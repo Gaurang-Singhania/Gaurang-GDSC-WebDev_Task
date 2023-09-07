@@ -1,0 +1,184 @@
+.main {
+    font-family: 'Roboto mono', sans-serif;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    padding: 5px;
+
+}
+
+.main div {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+body {
+    font-family: 'Roboto mono', sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    height: 55px;
+}
+
+
+
+h2 {
+    font-family: 'Roboto mono', sans-serif;
+    padding-left: 50px;
+    font-size: 50px;
+}
+
+h3 {
+    font-family: 'Roboto mono', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+footer {
+    font-family: 'Roboto mono', sans-serif;
+    background-color: #f2f2f2;
+    padding: 10px 0;
+    text-align: center;
+}
+
+a {
+    font-family: 'Roboto mono', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+
+table {
+    font-family: 'Roboto mono', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 3rem;
+}
+
+
+th,
+td {
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 5px solid white;
+    border-radius: 2rem;
+}
+
+.title {
+    background-color: white;
+    border-radius: 2rem;
+    margin-right: 15px;
+    font-weight: bolder;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tab {
+    border-radius: 5rem;
+    background-color: blue;
+    margin-right: 17px;
+    border: solid 2px white;
+}
+
+.tab:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 25px;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    border: solid 1px black;
+    border-radius: 3rem;
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+.logo h3 {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 2rem;
+}
+
+.logo h3:hover {
+    transform: scale(1.3);
+    transition: 1.3s;
+    cursor: pointer;
+}
+
+.logo p {
+    margin-left: 75px;
+}
+
+.logo img {
+    width: 260px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#upcoming-events p {
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+#upcoming-events button {
+
+    background-color: black;
+    color: white;
+    margin: 5px 10px 50px 55px;
+    width: 150px;
+    height: 75px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 5rem;
+    box-shadow: 5px 5px 5px 5px grey;
+    cursor: pointer;
+}
+
+#upcoming-events button:hover {
+    transform: scale(1.2);
+    transition: 1.3s;
+}
+
+.past-events {
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 3rem;
+    color: white;
+    width: auto;
+}
+
+.event-title {
+    background-color: white;
+    color: black;
+    border-radius: 3rem;
+}
+
+.table-inner-border{
+    width: 400px;
+     border-right-style: solid;
+     border-right-width: 10px;
+ 
+}
